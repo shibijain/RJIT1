@@ -1,0 +1,274 @@
+﻿
+body 
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.MsgErrorLegend
+{
+	 font-family:Tahoma;
+	 font-size:11px;
+	 color:maroon;    
+	 font-weight:bold; 	
+}
+.MsgErrorLabel
+{
+	font-family:Tahoma ;
+	font-size:12px;
+	color:red;    
+    font-weight:bold; 	
+}
+.MsgHeader
+{
+	font-family:Tahoma;
+	font-size:12px;
+	color:white;    
+    font-weight:bold;
+    border-right:#2673a0 3px inset;
+    border-top:#2673a0 1px inset; 
+	border-left: #2673a0 1px inset; 
+	border-bottom: #2673a0 2px inset; 
+	background-color:steelblue;
+	 
+	width:20%;
+  }
+  .MsgchLocked
+{
+	font-family:Tahoma;
+	font-size:12px;
+	color:red;    
+    font-weight:bold;
+    border-right:#2673a0 3px inset;
+    border-top:#2673a0 1px inset; 
+	border-left: #2673a0 1px inset; 
+	border-bottom: #2673a0 2px inset; 
+	background-color:whitesmoke; 
+	width:90%;
+	  padding:4px 4px;
+  }
+.TrMain
+{
+  background-color:#CCCCCC;;
+	/*text-shadow: 1px 1px 2px rgba(0,0,0,.3);*/
+    line-height:2em;
+}
+.Tr1
+{
+	 background-color:transparent;
+	
+}
+.button2673A0
+{
+	background-color:steelblue;
+	color:White;
+	font-family: Tahoma;
+	border-color :Silver ;
+	border-width : 2px;
+	border-style:outset ;
+	font-weight:bold ;
+	font-size:10pt ;
+	BORDER-RIGHT: black 3px outset; 
+	BORDER-TOP: black 1px outset; 
+	BORDER-LEFT: #a7a7a7 1px outset; 
+	BORDER-BOTTOM: #a7a7a7 3px outset; 
+	}
+.label
+{
+	 FONT-SIZE: 12px; 
+	 COLOR: white;
+	 FONT-FAMILY:Tahoma;
+	 font-weight:bold;
+}
+.labeluc
+{
+	 FONT-SIZE: 12px; 
+	 COLOR: #005776;
+	 FONT-FAMILY:Tahoma;
+	 font-weight:bold;
+}
+.labelTh
+{
+	 FONT-SIZE: 11px; 
+	 COLOR: white;
+	 FONT-FAMILY:Tahoma;
+	 font-weight:bold;
+}
+
+.TdLeft
+{
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 11px;
+	 COLOR: #000000; 	
+}
+.TdLeft1
+{
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 11px;
+	 COLOR: BLACK; 
+	 FONT-FAMILY: Tahoma; 
+	 width:25%;
+	 
+}
+.TdRight1
+{
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 11px;
+	 COLOR: maroon; 
+	 FONT-FAMILY: Tahoma; 
+	 width:25%;
+	 
+}
+.TdLeft2
+{
+	 FONT-WEIGHT: bold; 
+	 FONT-SIZE: 13px;
+	 COLOR: BLACK; 
+	 FONT-FAMILY: Tahoma; 
+	 width:50%;
+	 
+}
+.TdRight
+{
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 11px;
+	 COLOR: maroon; 
+	 width:50%
+}
+.TdRight2
+{
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 13px;
+	 COLOR: maroon; 
+	 FONT-FAMILY: Tahoma; 
+	 width:25%;
+	 
+}
+.textboxes1
+{
+	BORDER-RIGHT: black 1px groove; 
+	BORDER-TOP: black 1px groove; 
+	FONT-SIZE: 8pt; 
+	BORDER-LEFT: black 1px groove; 
+	COLOR: #000000; 
+	BORDER-BOTTOM: black 1px groove; 
+	FONT-FAMILY: Tahoma, arial; 
+	BACKGROUND-COLOR: #fbfbfb; 
+	TEXT-DECORATION: none; 
+}
+.hlink
+{
+	color:#005776;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.hlink:hover 
+{
+   color:#E97A20;
+    font-size:15px;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.2);
+}
+
+.buttons 
+{ 
+	BORDER-RIGHT: #a7a7a7 1px solid; 
+	BORDER-TOP: #a7a7a7 1px solid; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 13px; 
+	BORDER-LEFT: #a7a7a7 1px solid; 
+	COLOR: #333333; 
+	BORDER-BOTTOM: #a7a7a7 1px solid; 
+	FONT-FAMILY: Tahoma; 
+	BACKGROUND-COLOR: Transparent; 
+	TEXT-DECORATION: none 
+}
+.labelSiteMon
+{
+	 FONT-SIZE: 12px; 
+	 COLOR: maroon;
+	 FONT-FAMILY:Tahoma;
+	 font-weight:bold;
+}
+.btnSubmit
+{   
+   color:#000000;  
+   FONT-FAMILY: Tahoma;  
+   font-size:12px;
+	font-weight:bold; 
+   background-color:Transparent;   
+    BORDER-RIGHT: #a7a7a7 4px outset; 
+	BORDER-TOP: #a7a7a7 1px outset;
+	BORDER-BOTTOM: #a7a7a7 3px outset; 
+	BORDER-LEFT: #a7a7a7 1px outset;    
+   border-color: #696 #E97A20 #E97A20 #696;   
+     
+}   
+
+.CandRilabel 
+{ FONT-SIZE: 10px; COLOR: #000080; FONT-FAMILY: Tahoma; 
+}
+.CandRilabelh
+ { FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Tahoma }
+
+.TdLeftORCR
+{
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 12px;
+	 COLOR: #2673a0; 
+	 FONT-FAMILY: Tahoma; 
+	 width:30%
+}
+.labeltxt1
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: white;
+	font-weight:bold;
+	font-family: Tahoma;
+	background-color:steelblue;
+	
+}
+.labeltxt2
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: navy;
+	font-family: Tahoma;
+	background-color:whitesmoke;
+	
+}
+
+.ddlBlue
+{
+	font-Size:8pt ;
+	font-family: Tahoma;
+	Color:steelblue;
+	text-decoration:none;
+}
+.radio
+{
+    FONT-WEIGHT: bold;
+	 FONT-SIZE: 11px;
+	 COLOR: #2673a0; 
+	 FONT-FAMILY: Tahoma;    
+}
+.ValidatorError
+{
+	 font-family:Tahoma;
+	 font-size:10px;
+	 color:#ff0066 ;   
+	 font-weight:normal; 	
+}
+.ValidatorSummary
+{
+	 font-family:Tahoma;
+	 font-size:15px;
+	 color:#ff0066 ;   
+	 font-weight:normal; 
+	 font-weight:bold;	
+}

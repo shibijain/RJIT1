@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0093)https://medicalcounseling.nic.in/UGCounselling/Home/ViewInstituteProfile?rid=226&boardid=1003 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>NEET UG</title>
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+    <meta http-equiv="pragma" content="no-cache">
+    <link href="./seth GS mumbai_files/main-style.css" rel="stylesheet" type="text/css">
+    <link href="./seth GS mumbai_files/superfish.css" rel="stylesheet" type="text/css">
+   
+    <link rel="stylesheet" type="text/css" href="./seth GS mumbai_files/style1.css">
+    <link rel="stylesheet" type="text/css" href="./seth GS mumbai_files/gridview.css">
+    <link href="./seth GS mumbai_files/controls.css" rel="stylesheet" type="text/css">
+
+    
+
+    
+    
+    
+    
+    <script language="javascript" type="text/javascript">
+        var a = navigator.onLine;
+        if (a) {
+            // alert('online');
+        } else {
+            //alert('ofline');
+            window.location = '../LoginPage.aspx';
+        } </script>
+    
+    <script language="javascript" type="text/javascript">        javascript: window.history.forward(1); </script>
+    <script language="javascript" type="text/javascript">
+        function burstCache() {
+            if (!navigator.onLine) {
+                document.body.innerHTML = 'Loading...';
+                window.location = '../LoginPage.aspx';
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" autocomplete="off">
+        <ajaxtoolkit:toolkitscriptmanager id="sMChoiceMaster" scriptmode="Release">
+        </ajaxtoolkit:toolkitscriptmanager>
+        <div>
+            <div class="top_div">
+            </div>
+            <div class="cleaner">
+            </div>
+            <div class="banner_bg">
+                <div class="banner">
+                    <div class="logo">
+                        
+                    </div>
+                    <div class="banner_text">
+                        <h1>
+                            Online Under Graduate Medical / Dental Seats
+                        </h1>
+                        <span>ALLOTMENT PROCESS - COUNSELING </span>
+                        <br>
+                        <h2>
+                            Directorate General of Health Services, Ministry of Health &amp; Family Welfare
+                            <br>
+                            Government of India<br>
+                            <span>Medical Counseling Committee (MCC)</span>
+                        </h2>
+                    </div>
+                    <div class="glogo">
+                    </div>
+                </div>
+            </div>
+            <div class="cleaner">
+            </div>
+            <div id="containerMenu">
+                <div id="menu">
+                    <div id="menu_in">
+                        <ul class="sf-menu">
+                            <li class="current">
+                                
+                                <a href="https://medicalcounseling.nic.in/UGCounselling/">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="container">
+                <div id="containerHome">
+                    
+                    
+
+<script src="./seth GS mumbai_files/jquery-1.4.2.min.js.download"></script>
+<script>
+
+    $(document).ready(function () {
+
+        ReportBind('profile');
+        // ReportBind('seat');
+    });
+
+    function ReportBind(openfor) {
+        debugger;
+        var location = window.location.host + "/MCCAPP";
+        url = location + "/Reports/InstituteSeatsInfo.aspx";
+        if (openfor == 'profile') {
+            var myfrm = document.getElementById("ifrmprofileRpt");
+
+        }
+
+
+        //var Round = getParameterByName('Round');
+        var Round = "1";
+        //var Round = getParameterByName('Round');
+        if (myfrm !== null) {
+            if (myfrm.src) {
+                myfrm.src = url;
+            }
+            else if (myfrm.contentWindow !== null && myfrm.contentWindow.location !== null) {
+                if (Round == "3") {
+                    if (openfor == "profile") {
+                        myfrm.contentWindow.location = document.location.origin + "/UGCounselling/Reports/ViewInstituteProfileRpt.aspx?instid=226" + "&boardid=1003";
+                    }
+
+                }
+                else {
+                    if (openfor == "profile") {
+                        myfrm.contentWindow.location = document.location.origin + "/UGCounselling/Reports/ViewInstituteProfileRpt.aspx?instid=226" + "&boardid=1003";
+                    }
+
+                }
+            }
+            else {
+                myfrm.setAttribute('src', url);
+            }
+        }
+
+        return false;
+    }
+
+</script>
+<table cellspacing="2" cellpadding="2" width="100%" align="center" border="0">
+    <tbody><tr>
+        <td>
+            
+            
+            
+
+            <iframe id="ifrmprofileRpt" style="height:600px;width:100%;" frameborder="0" scrolling="0" src="./seth GS mumbai_files/saved_resource.html"></iframe>
+
+            
+            
+
+        </td>
+        
+    </tr>
+</tbody></table>
+
+
+
+;
+                </div>
+                <div class="cleaner">
+                </div>
+                
+                
+            </div>
+            <div id="containerMenuf">
+                <div id="menuf">
+                </div>
+            </div>
+            <div class="cleaner">
+            </div>
+            <div id="footer">
+                <p>
+                    <strong>Disclaimer:</strong> This site is designed and hosted by NIC and the contents
+                    are provided by DGHS. For any further information, please contact DGHS.
+                </p>
+            </div>
+        </div>
+    </form>
+
+
+</body></html>

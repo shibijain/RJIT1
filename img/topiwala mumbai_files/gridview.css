@@ -1,0 +1,291 @@
+﻿
+.gridview 
+{ 
+	
+	font-family:Tahoma;
+}
+.gridview H2 
+{ 
+	margin:0; padding:0; 
+	color:#ffffff;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+	text-align:left;
+}
+.gridview .mid
+{
+	padding:3px 0px 0px 0px;
+}
+.gridview .datatable
+{
+	width:100%;
+	color:black;
+	
+}        
+.gridview .datatable TH
+{
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:0px;
+    text-align:left;
+    padding:2px 2px;
+    color:white;
+    border:solid 1px #CCC;
+    BACKGROUND-COLOR: #005776;
+}
+.gridview .datatable TH A
+{ 
+	   color:white;
+	text-decoration:underline;
+	}
+.gridview .datatable TH.sortasc A 
+{ 
+	background:url(../images/asc.gif) right center no-repeat;
+}
+.gridview .datatable TH.sortdesc A 
+{
+	 background:url(../images/desc.gif) right center no-repeat; 
+}
+.gridview .datatable .row TD
+{
+    font-size:11px;
+    text-align:left;
+    padding:4px 4px;
+    border:solid 1px #CCC;
+   }  
+    
+.gridview .datatable .row:hover
+{
+	background-color:#E97A20;
+	color:#fff;
+	font-weight:bold;
+}
+.gridview .datatable .row TD.first 
+{ 
+	padding-left:2px; 
+}
+.gridview .datatable TH.first
+ { 
+ 	padding-left:2px; 
+ }
+.gridview .datatable .row:hover .first
+{
+    background-repeat:no-repeat;   
+	background-image:url(../images/bullet.gif);
+}  
+/* Data Pager Styles */
+.gridview TR.pager-row TD
+{
+    border-top:none;
+    text-align:center;
+    BACKGROUND-COLOR:whitesmoke;
+    
+    }
+.gridview .pager
+{
+    font-family:Tahoma ,sans-serif;
+    text-align:left;
+    padding:4px;	
+    font-size:14px;
+ 
+} 
+.gridview .pager SPAN.command,        
+.gridview .pager SPAN.current,        
+.gridview .pager A.command,
+.gridview TR.pager-row TD A
+{
+    color:black;
+    padding:0px 4px;
+    text-decoration:none;
+    border:none;
+}
+.gridview .pager A.command:hover,
+.gridview TR.pager-row TD A:hover
+{
+    border:solid 1px #408BB6;
+    background-color:#E97A20;
+    color:black;
+    padding:0px 3px;
+    text-decoration:underline;
+ 
+}        
+.gridview .pager SPAN.current,
+.gridview TR.pager-row TD SPAN
+{
+	border:none;
+    font-weight:bold;
+    color:black;
+    padding:0px 4px;
+    font-size:15px;
+}
+
+.gridview TR.pager-row TABLE
+{
+	height:20px;
+	margin:0 auto 0 auto;
+}
+.comment { color:Green; }
+
+
+.editlinkb
+{
+	font-family: Tahoma;
+	color:steelblue;
+	font-size:11px;
+	font-weight:normal;
+}  
+
+.lbx
+{
+	
+	FONT-SIZE: 7pt; 
+	COLOR: steelblue; 
+	FONT-FAMILY: Tahoma,verdana,arial; 
+	BACKGROUND-COLOR: #fbfbfb; 
+	TEXT-DECORATION:none; 
+	height: 45px;
+	vertical-align:middle; 
+	width:80px;
+}
+.edittextboxes
+{
+	border: solid 1px  steelblue; 
+	FONT-SIZE: 8pt; 
+	COLOR: steelblue; 
+	FONT-FAMILY: Tahoma, arial; 
+	BACKGROUND-COLOR:ghostwhite; 
+	TEXT-DECORATION: none; 
+	height: 12px;
+	width:90px;
+}
+.modalBackgroundGray 
+        {
+	        background-color:Gray;
+	        filter:alpha(opacity=60);
+	        opacity:0.60;         
+        }
+.modalBackground 
+        {
+	        filter:alpha(opacity=60);
+	        opacity:0.60;         
+        }
+ .updateProgressMessage
+        {
+            margin:3px; 
+            font-family:Trebuchet MS; 
+            font-size:small; 
+            vertical-align: middle;
+        }
+        
+ .updateProgress
+        {
+                       
+            background-color:#FFFFFF;
+            border-width:1px;
+            border-style:solid; 
+            background:url(../images/item_bg.gif);
+            position:absolute;
+            width:110px; 
+            height:40px;    
+  
+        }
+.frame
+{
+	position:absolute;
+    font-family:Tahoma,arial,helvetica,clean,sans-serif;
+    font-size:small;  
+    padding:2px 3px;
+    width:550px;
+}
+
+.overlay
+{  
+    border:solid 1px #808080;
+    border-width:1px 1px;
+} 
+
+.underlay
+{
+    position:absolute;
+    background-color:#000;
+    bottom:-1px;
+    filter:alpha(opacity=12);
+    left:-1px;
+    right:-1px;
+    top:3px;
+    z-index:-1;
+}
+
+.header
+{
+    cursor:move; /* Because the DragPanelExtender doesn't do this for me ;( */
+    background: url(../Images/sprite.png) repeat-x 0px -200px;	
+    color:#0066cc;   
+	font-weight:bold; 		
+    border-bottom:solid 1px #ccc;
+    padding: 3px 10px;
+} 
+
+.header .msg
+{
+    font-weight: bold;
+}         
+
+.updating, .body
+{
+    background-color:aliceblue;
+    padding:10px;
+    font-size:12px;
+	color:#0066cc; 
+    font-family:Tahoma;
+}
+
+.updating
+{
+	color:#808080;
+	background:#fff url(../Images/activity.gif) no-repeat center;
+} 
+
+
+
+.close
+{
+    right: 7px;	
+    background: url(../Images/sprite.png) no-repeat 0px -300px;	
+    width: 28px;	
+    cursor: pointer;	
+    position: absolute;	
+    top: 7px;	
+    height: 18px;
+}
+  
+  .accordion  
+{
+    font-size:8.5pt;
+    /*font-family:Tahoma;
+    background:url(../Images/item_bg.gif);*/
+    
+}
+.accordion TD 
+{
+  border-bottom:solid 2px #005776;
+  text-decoration:none;
+  color:#005776;
+  }
+.LinkButton
+{
+  font-weight:bold;
+  text-decoration:none;
+  }
+
+.accordion td:hover
+{
+    cursor:pointer;
+    background-color:#C0C0C0;
+    color:black;
+    border-bottom:solid 2px #005776;
+    text-decoration:underline;
+   /* background:url(../img/hd_hover_bg.gif);*/
+    
+}     
